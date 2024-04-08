@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jay Gurnani</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add any additional CSS styling here */
+    </style>
 </head>
 <body>
-    <header>
+    <header id="navbar">
         <h1>Jay Gurnani</h1>
         <nav>
             <ul>
@@ -19,72 +22,80 @@
         </nav>
     </header>
 
-    <section id="about" class="section" style="background-image: url('https://via.placeholder.com/1500x800')">
-        <h2>About Me</h2>
-        <p>I am a software engineer with experience...</p>
-    </section>
-
-    <section id="experience" class="section" style="background-image: url('https://via.placeholder.com/1500x800')">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Software Engineer</h3>
-            <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
-               July 2023 - Present</p>
-            <ul>
-                <li>Implemented Application from Architecture Design to Release based upon Angular, Python, Flask, JAVA, Docker, Kubernetes(microservices), Timeseries(TimescaleDB), AWS, and Nginx</li>
-                <li>Improved Application search query performance from 10s to 1s for Application having getting 90M records in 1s in the table</li>
-                <li>Contributed to Backend Microservices in C#(.Net) for ADMS</li>
-                <li>Got Award of Excellence Award for my work in 2023 at GE Vernonva</li>
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Software Engineering Specialist</h3>
-            <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
-               Aug 2021 - June 2023</p>
-            <ul>
-                <li>Gained extensive hands-on experience in PostgreSQL, Docker, and Kubernetes</li>
-                <li>Driven discussions to create/improve products, and processes</li>
-                <li>Mentored young minds and fostered team spirit</li>
-                <!-- Add more points as necessary -->
-            </ul>
-        </div>
-        <div class="experience-item">
-            <h3>Digital Technology Intern</h3>
-            <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
-               Jan 2021 - July 2021</p>
-            <ul>
-                <li>Developed CI/CD Pipelines and Implemented automation for deployment of various product modules and configurations using Chef, Terraform, Inspec, Manifest(.yaml)</li>
-                <li>Automated various tasks using scripting through Python, Perl, Groovy and Shell scripts</li>
-                <!-- Add more points as necessary -->
-            </ul>
+    <section id="about" class="section" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0')">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I am a software engineer with experience...</p>
         </div>
     </section>
 
-    <section id="projects" class="section" style="background-image: url('https://via.placeholder.com/1500x800')">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Neural style transfer</h3>
-            <p>Transfer learning(Machine Learning) to blend style image and content image such that the output image is transformed to look like the content image with styled as style image</p>
-        </div>
-        <div class="project-item">
-            <h3>The Naive Baker</h3>
-            <p>A website that lets you explore new recipes with available ingredients you have and provide different filters for search.</p>
-        </div>
-        <div class="project-item">
-            <h3>Airline Database Management System</h3>
-            <p>A database containing the flight schedule details including route info, arrival and departure date and time as well as current flight status has been incorporated.</p>
+    <section id="experience" class="section" style="background-image: url('https://images.unsplash.com/photo-1501436513145-84f3ed585f22')">
+        <div class="content">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Software Engineer</h3>
+                <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
+                July 2023 - Present</p>
+                <ul>
+                    <li>Implemented Application from Architecture Design to Release based upon Angular, Python, Flask, JAVA, Docker, Kubernetes(microservices), Timeseries(TimescaleDB), AWS, and Nginx</li>
+                    <li>Improved Application search query performance from 10s to 1s for Application having getting 90M records in 1s in the table</li>
+                    <li>Contributed to Backend Microservices in C#(.Net) for ADMS</li>
+                    <li>Got Award of Excellence Award for my work in 2023 at GE Vernonva</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Software Engineering Specialist</h3>
+                <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
+                Aug 2021 - June 2023</p>
+                <ul>
+                    <li>Gained extensive hands-on experience in PostgreSQL, Docker, and Kubernetes</li>
+                    <li>Driven discussions to create/improve products, and processes</li>
+                    <li>Mentored young minds and fostered team spirit</li>
+                    <!-- Add more points as necessary -->
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Digital Technology Intern</h3>
+                <p><strong>GE Digital</strong>, Hyderabad, Telangana, India<br>
+                Jan 2021 - July 2021</p>
+                <ul>
+                    <li>Developed CI/CD Pipelines and Implemented automation for deployment of various product modules and configurations using Chef, Terraform, Inspec, Manifest(.yaml)</li>
+                    <li>Automated various tasks using scripting through Python, Perl, Groovy and Shell scripts</li>
+                    <!-- Add more points as necessary -->
+                </ul>
+            </div>
         </div>
     </section>
 
-    <section id="contact" class="section" style="background-image: url('https://via.placeholder.com/1500x800')">
-        <h2>Contact</h2>
-        <p>Connect with me:</p>
-        <ul>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/jaygurnani">Jay Gurnani</a></li>
-            <li>Email: gurnanijay1999@gmail.com</li>
-            <li>GitHub: <a href="https://github.com/gurnanijay">gurnanijay</a></li>
-            <li>Phone: +919265248367</li>
-        </ul>
+    <section id="projects" class="section" style="background-image: url('https://images.unsplash.com/photo-1500021806717-5e68c2e00207')">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Neural style transfer</h3>
+                <p>Transfer learning(Machine Learning) to blend style image and content image such that the output image is transformed to look like the content image with styled as style image</p>
+            </div>
+            <div class="project-item">
+                <h3>The Naive Baker</h3>
+                <p>A website that lets you explore new recipes with available ingredients you have and provide different filters for search.</p>
+            </div>
+            <div class="project-item">
+                <h3>Airline Database Management System</h3>
+                <p>A database containing the flight schedule details including route info, arrival and departure date and time as well as current flight status has been incorporated.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background-image: url('https://images.unsplash.com/photo-1485921325631-6a055c88687c')">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Connect with me:</p>
+            <ul>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/jaygurnani">Jay Gurnani</a></li>
+                <li>Email: gurnanijay1999@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/gurnanijay">gurnanijay</a></li>
+                <li>Phone: +919265248367</li>
+            </ul>
+        </div>
     </section>
 
     <script src="script.js"></script>
